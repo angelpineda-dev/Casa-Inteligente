@@ -123,4 +123,9 @@ section p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #777;
+}
+
+.section-link:hover {
+  color: #222;
 }

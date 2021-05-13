@@ -2,10 +2,10 @@ const d = document,
   $menu = d.getElementById("wheel-nav"),
   $menuItems = d.getElementsByClassName("wheel-item");
 
-console.log($menu);
-console.log($menuItems);
+// console.log($menu);
+// console.log($menuItems);
 
-d.addEventListener("mouseover", (e) => {
+const wheelNav = (e) => {
   if (e.target.matches("#wheel-nav *")) {
     console.log("Estoy encima we");
 
@@ -24,4 +24,6 @@ d.addEventListener("mouseover", (e) => {
       el.style.left = "50%";
     });
   }
-});
+};
+
+export default wheelNav;
